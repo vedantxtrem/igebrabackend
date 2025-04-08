@@ -38,3 +38,4 @@ This is the backend service for the **Lesson Plan Generator** application. It re
 git clone https://github.com/yourusername/lesson-plan-generator-backend.git
 cd lesson-plan-generator-backend
 npm install
+npm run start
