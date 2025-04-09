@@ -7,7 +7,7 @@ generativeRouter.post("/generate", async (req, res) => {
     const { subject, gradelevel, topic } = req.body;
     console.log({ subject, gradelevel, topic });
   
-    const prompt = `Create a Lesson Plan for these entities: ${topic}, ${gradelevel}, ${subject} || and generate the response in JSON:
+    const prompt = `Create a Lesson Plan for these entities: ${topic}, with expamles and quiz ${gradelevel}, ${subject} || and generate the response in JSON:
     {
         topic, 
         objective, 
