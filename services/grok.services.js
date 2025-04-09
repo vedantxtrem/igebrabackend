@@ -8,7 +8,7 @@ export const callGrok = async (prompt) => {
       Authorization: `Bearer ${process.env.GROK_API_KEY}`,
     },
     body: JSON.stringify({
-      model: "deepseek-r1-distill-qwen-32b", 
+      model: "llama-3.1-8b-instant", 
       messages: [
         { role: "user", content: prompt },
       ],
